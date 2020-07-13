@@ -7,12 +7,19 @@
 </template>
 
 <script>
- import MainBar from './components/content/MainBar'
+ import MainBar from './components/content/MainBar';
+ 
 export default {
   name: 'App',
   components: {
    MainBar
-  }
+  },
+  data(){
+    return{
+      datas:'',
+    }
+  },
+  
 }
 </script>
 
